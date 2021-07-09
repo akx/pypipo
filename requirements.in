@@ -1,0 +1,3 @@
+aiohttp
+git+https://github.com/valohai/asgiproxy@v0.1#egg=asgiproxy==0.1
+uvicorn
