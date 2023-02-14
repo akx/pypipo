@@ -8,9 +8,9 @@ aiohttp==3.7.4.post0
     # via
     #   -r requirements.in
     #   asgiproxy
-anyio==3.2.1
+anyio==3.6.2
     # via starlette
-git+https://github.com/valohai/asgiproxy@v0.1#egg=asgiproxy==0.1
+asgiproxy @ git+https://github.com/valohai/asgiproxy@v0.1
     # via -r requirements.in
 asgiref==3.4.1
     # via uvicorn
@@ -34,7 +34,7 @@ multidict==5.1.0
     #   yarl
 sniffio==1.2.0
     # via anyio
-starlette==0.15.0
+starlette==0.25.0
     # via asgiproxy
 typing-extensions==3.10.0.0
     # via aiohttp
